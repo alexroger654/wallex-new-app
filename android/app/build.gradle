@@ -92,6 +92,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+release {
+       storeFile file('my-upload-key.keystore')
+                storePassword "129400"
+                keyAlias "my-key-alias"
+                keyPassword "129400"
+        }
     }
     buildTypes {
         debug {
@@ -100,7 +106,7 @@ android {
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
@@ -111,9 +117,27 @@ dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
 
+  implementation(project(':react-native-onesignal')){
+      exclude group: 'com.google.android.gms'
+  }
+
+  implementation(project(':react-native-maps')){
+      exclude group: 'com.google.android.gms'
+  }
+  implementation 'com.google.android.gms:play-services-base:18.0.1'
+  implementation 'com.google.android.gms:play-services-location:19.0.1'
+  implementation 'com.google.android.gms:play-services-maps:18.0.2'
+
+
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {
         implementation jscFlavor
     }
 }
+
+
+
+
+
+

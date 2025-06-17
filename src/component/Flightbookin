@@ -1,0 +1,501 @@
+{
+    "error": null,
+    "message": "Flight price retrieved",
+    "data": {
+        "shouldRetry": false,
+        "showWhatsAppConsent": false,
+        "showCaptcha": false,
+        "email": "",
+        "mobile": null,
+        "hidePromo": "true",
+        "data": {
+            "fltSchedule": {
+                "DELBLR20240510": [
+                    {
+                        "ID": "DELBLRSG815120240510",
+                        "supplierType": "LCC",
+                        "applyMarkup": "Y",
+                        "officeId": "APITESTID",
+                        "gstMandatory": false,
+                        "OD": [
+                            {
+                                "bga": "Hand Baggage Only",
+                                "ts": "",
+                                "FS": [
+                                    {
+                                        "TourCode": "",
+                                        "RetailTourCode": "",
+                                        "travelclass": "U",
+                                        "ac": "SG",
+                                        "oac": "SG",
+                                        "vc": "SG",
+                                        "idac": "DEL",
+                                        "iaac": "BLR",
+                                        "fl": "8151",
+                                        "dan": "Indira Gandhi",
+                                        "aan": "Bengaluru",
+                                        "dcc": "IN",
+                                        "acc": "IN",
+                                        "dac": "DEL",
+                                        "aac": "BLR",
+                                        "dcn": "India",
+                                        "acn": "India",
+                                        "ddt": "2024-05-10",
+                                        "adt": "2024-05-10",
+                                        "dd": "19:20",
+                                        "ad": "22:10",
+                                        "eq": "",
+                                        "du": "0250",
+                                        "st": "0",
+                                        "bga": "Hand Baggage Only",
+                                        "ml": "",
+                                        "ft": "Refundable",
+                                        "nft": "Refundable",
+                                        "fbc": "XXXXX",
+                                        "seatMap": "true",
+                                        "mlT": "2",
+                                        "resBookDesigCode": "U",
+                                        "classtype": "Economy",
+                                        "dt": "T-3",
+                                        "at": "T-1",
+                                        "isWFare": "0",
+                                        "isCorp": "0",
+                                        "isCommF": "1"
+                                    }
+                                ],
+                                "TourCode": "",
+                                "RetailTourCode": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fltOrder": {
+                "1": "DELBLR20240510"
+            },
+            "paxVal": {
+                "titleReqd": true,
+                "fName": {
+                    "reqd": true,
+                    "minlen": "2",
+                    "maxlen": "32"
+                },
+                "lName": {
+                    "reqd": true,
+                    "minlen": "2",
+                    "maxlen": "32"
+                },
+                "fullName": {
+                    "reqd": true,
+                    "total": "54"
+                },
+                "messageInfo": [
+                    {
+                        "ac": "X1",
+                        "an": "NA",
+                        "msg": "Not Required"
+                    }
+                ]
+            },
+            "mealLabel": {
+                "0": {
+                    "label": "Free Meal",
+                    "message": ""
+                },
+                "1": {
+                    "label": "Paid Meal",
+                    "message": ""
+                },
+                "2": {
+                    "label": "No Meal Fare",
+                    "message": "This is a special No Meal fare provided by the airline. Meal can only be purchased on board."
+                }
+            },
+            "cityNames": {
+                "DEL": "New Delhi",
+                "BLR": "Bangalore"
+            },
+            "airportNames": {
+                "DEL": "Indira Gandhi",
+                "BLR": "Bengaluru"
+            },
+            "airlineNames": {
+                "SG": "SpiceJet"
+            },
+            "fareDetails": {
+                "ylp": "0",
+                "icb": "0",
+                "DELBLR20240510": {
+                    "DELBLRSG815120240510": {
+                        "O": {
+                            "ADT": {
+                                "bf": "499",
+                                "tf": "1666.0",
+                                "fsc": "900",
+                                "px": "ADT",
+                                "qt": "1",
+                                "YQ": "900",
+                                "GST": "0",
+                                "GAST": "49",
+                                "PSF": "91",
+                                "UDF": "12",
+                                "TF": "0",
+                                "OC": "115",
+                                "crmkp": "0.0",
+                                "OTROnly": "115",
+                                "OTR": "115.0"
+                            },
+                            "revisedFareDetails": {
+                                "ylp": "",
+                                "bf": "499",
+                                "fsc": "900",
+                                "totcrmkp": "0.0",
+                                "tf": "1666.0",
+                                "nf": "1658.23",
+                                "tsc": "NaN",
+                                "tds": "0.41",
+                                "OTROnly": "115",
+                                "OTR": "115.0",
+                                "tbf": "0",
+                                "sr": "0",
+                                "dmark": "0",
+                                "crfee": "0.0",
+                                "crdis": "0.0",
+                                "dismrk": "0",
+                                "mtf": "0",
+                                "af": "1399",
+                                "pta": "SG",
+                                "servicetax": "0.0",
+                                "commision": "8.18",
+                                "YQ": "900",
+                                "GST": "0",
+                                "GAST": "49",
+                                "PSF": "91",
+                                "UDF": "12",
+                                "TF": "0",
+                                "OC": "115",
+                                "dismark": "0.0",
+                                "distmark": "0.0",
+                                "gst": "0.0",
+                                "igst": "0.0",
+                                "cgst": "9.0",
+                                "sgst": "9.0",
+                                "utgst": "0.0",
+                                "wholeSalerFee": "0.0",
+                                "wsfIgst": "0.0",
+                                "wsfCgst": "0.0",
+                                "wsfSgst": "0.0",
+                                "wsfUtgst": "0.0",
+                                "sdistmark": "0.0",
+                                "wholeSalerFeeWithGst": "0.0",
+                                "totalcrdis": "8.18"
+                            }
+                        }
+                    }
+                },
+                "markup": "0",
+                "total_abs_markup": 0,
+                "total_abs_icb": 0,
+                "dfc": 0,
+                "convFee": "0",
+                "totalORconvFee": "0",
+                "xdistConvFee": "0",
+                "tempXdistConvFee": "0.0"
+            },
+            "meals": {
+                "isMeal": "true",
+                "O": {
+                    "DEL|BLR": {
+                        "uid": "1",
+                        "rph": "1",
+                        "mealOptions": [
+                            {
+                                "typ": "NVM1",
+                                "desc": "Max Non Veg Meal",
+                                "amt": "0",
+                                "curr": "",
+                                "convamt": "0"
+                            },
+                            {
+                                "typ": "VGS1",
+                                "desc": "Max Veg Sandwich",
+                                "amt": "0",
+                                "curr": "",
+                                "convamt": "0"
+                            },
+                            {
+                                "typ": "CHML",
+                                "desc": "Kids Meal",
+                                "amt": "0",
+                                "curr": "",
+                                "convamt": "0"
+                            },
+                            {
+                                "typ": "NVS1",
+                                "desc": "Max Non Veg Sandwich",
+                                "amt": "0",
+                                "curr": "",
+                                "convamt": "0"
+                            },
+                            {
+                                "typ": "VGML",
+                                "desc": "Vegetarian",
+                                "amt": "0",
+                                "curr": "",
+                                "convamt": "0"
+                            },
+                            {
+                                "typ": "VGM1",
+                                "desc": "Max Veg Meal",
+                                "amt": "0",
+                                "curr": "",
+                                "convamt": "0"
+                            },
+                            {
+                                "typ": "NVML",
+                                "desc": "Non Veg Meal",
+                                "amt": "275",
+                                "curr": "",
+                                "convamt": "275"
+                            },
+                            {
+                                "typ": "VGSW",
+                                "desc": "Veg Sandwich",
+                                "amt": "290",
+                                "curr": "",
+                                "convamt": "290"
+                            },
+                            {
+                                "typ": "NVSW",
+                                "desc": "Non-Veg Sandwich",
+                                "amt": "434",
+                                "curr": "",
+                                "convamt": "434"
+                            }
+                        ]
+                    }
+                }
+            },
+            "seats": {
+                "O": {
+                    "DEL|BLR": {
+                        "uid": "1",
+                        "rph": "1",
+                        "seatOptions": [
+                            {
+                                "showSeats": "true"
+                            }
+                        ]
+                    }
+                },
+                "R": {}
+            },
+            "others": {
+                "isOther": "true",
+                "O": {
+                    "DEL|BLR": {
+                        "uid": "1",
+                        "rph": "1",
+                        "otherOptions": [
+                            {
+                                "typ": "PCBF",
+                                "desc": "YOU FIRST::",
+                                "amt": "399",
+                                "curr": "",
+                                "ptc": "ADTCHD",
+                                "convamt": "399"
+                            }
+                        ]
+                    }
+                }
+            },
+            "baggage": {
+                "isbaggage": "true",
+                "O": {
+                    "DEL|BLR": {
+                        "uid": "1",
+                        "rph": "1",
+                        "baggageOptions": [
+                            {
+                                "typ": "EB30",
+                                "desc": "30 Kg",
+                                "amt": "13500",
+                                "curr": "",
+                                "convamt": "13500"
+                            },
+                            {
+                                "typ": "EB05",
+                                "desc": "05 Kg",
+                                "amt": "2250",
+                                "curr": "",
+                                "convamt": "2250"
+                            },
+                            {
+                                "typ": "EB10",
+                                "desc": "10 Kg",
+                                "amt": "4500",
+                                "curr": "",
+                                "convamt": "4500"
+                            },
+                            {
+                                "typ": "EB15",
+                                "desc": "15 Kg",
+                                "amt": "6750",
+                                "curr": "",
+                                "convamt": "6750"
+                            },
+                            {
+                                "typ": "EB20",
+                                "desc": "20 Kg",
+                                "amt": "9000",
+                                "curr": "",
+                                "convamt": "9000"
+                            }
+                        ]
+                    }
+                }
+            },
+            "convenienceFee": {
+                "cc": "0",
+                "dc": "0",
+                "nb": "0",
+                "itz": "0",
+                "atm": "0",
+                "emi": "0",
+                "mw": "0",
+                "ec": "0",
+                "rewards": "0",
+                "qb": "0",
+                "other": "0",
+                "perpaxamt": "0"
+            },
+            "passengerList": [
+                {
+                    "title": "",
+                    "fname": "",
+                    "mname": "",
+                    "lname": "",
+                    "paxClass": "Adult 0 0",
+                    "addons": {}
+                }
+            ],
+            "isSR": "false",
+            "searchId": "d550b60f-573b-411d-a2bc-27841522f277",
+            "moProfileType": "CASH",
+            "org": "DEL",
+            "dest": "BLR",
+            "ftype": "O",
+            "tDate": "2024-05-10T19:20:00",
+            "lastTDate": "2024-05-10T19:20:00",
+            "ebs_sessionId": "5b3225af8866667f766ad0c5a3282f",
+            "ebs_accountId": "1026",
+            "adtCount": "1",
+            "chdCount": "0",
+            "infCount": "0",
+            "gstRePrice": true,
+            "showGst": true,
+            "dupChkFlg": "",
+            "isEmulated": "false",
+            "passPortMand": "",
+            "fareReqParams": {
+                "l1price": ""
+            },
+            "specialFareType": "",
+            "passThroughFares": [
+                {
+                    "flightId": "DELBLRSG815120240510",
+                    "airlineFare": "1666",
+                    "totalFare": "1666",
+                    "supplierCd": "SGAPI",
+                    "validatingCarrier": "SG",
+                    "travelClass": [
+                        "U"
+                    ]
+                }
+            ],
+            "dfcs": "liberty",
+            "insuranceSlab": [
+                {
+                    "ageMax": "79",
+                    "ageMin": "0",
+                    "amount": "229"
+                }
+            ]
+        },
+        "countryCodes": {
+            "origin": "IN",
+            "dest": "IN"
+        },
+        "pe": false,
+        "peMsg": "$requestMap.peMsg",
+        "freeUpgradeFlow": "false",
+        "pc": true,
+        "diff": -3975,
+        "isUpSell": false,
+        "ps": 0,
+        "superPnr": "0605240022593",
+        "pricingId": "32b86143-c851-4aa5-a97b-f4cd450ef9a0",
+        "pricingIdentifier": "611924108",
+        "msid": "d550b60f-573b-411d-a2bc-27841522f277",
+        "changeFlightUrl": "type=O&viewName=normal&flexi=0&noOfSegments=1&origin=DEL&originCountry=IN&destination=BLR&destinationCountry=IN&flight_depart_date=10/05/2024&ADT=1&CHD=0&INF=0&class=Economy&unique=1714971093007&newUi=false",
+        "srpUrl": "",
+        "isError": false,
+        "isPartial": false,
+        "isGstMandatory": false,
+        "isPricingShift": false,
+        "flightIdCSV": "DELBLRSG815120240510APITESTID",
+        "searchId": "d550b60f-573b-411d-a2bc-27841522f277",
+        "isSR": "false",
+        "sc": "SGAPI",
+        "oldPrice": 5641,
+        "responseArrivalTimeStamp": "",
+        "splitPnr": false,
+        "oft": false,
+        "hffRepriceError": false,
+        "paxnv": {
+            "inv": true,
+            "fnv": false,
+            "invl": 32,
+            "fnvl": 0
+        },
+        "paxVal": {
+            "titleReqd": true,
+            "fName": {
+                "reqd": true,
+                "minlen": "2",
+                "maxlen": "32"
+            },
+            "lName": {
+                "reqd": true,
+                "minlen": "2",
+                "maxlen": "32"
+            },
+            "fullName": {
+                "reqd": true,
+                "total": "54"
+            },
+            "messageInfo": [
+                {
+                    "ac": "X1",
+                    "an": "NA",
+                    "msg": "Not Required"
+                }
+            ]
+        },
+        "showdob": false,
+        "userAgent": "Apache-HttpClient/4.5.3 (Java/1.8.0_121)",
+        "sessionTimeoutData": {
+            "currentTime": "2024/05/06 10:21:33",
+            "pricingtime": "2024/05/06 10:21:33",
+            "msg": "Still interested in flying from New Delhi to Bengaluru",
+            "timeout": "10",
+            "pricingUrl": "https://secure.yatra.com/checkout-ui/b2bdomapi/price?searchId=d550b60f-573b-411d-a2bc-27841522f277&msid=d550b60f-573b-411d-a2bc-27841522f277&mode=Instant&bpc=true&flightIdCSV=DELBLRSG815120240510APITESTID&flightPrice=&sc=SGAPI&ref=0605240022593&sst=true&pid=32b86143-c851-4aa5-a97b-f4cd450ef9a0&isHff=false&isSR=false&variation=0&newUi=false",
+            "searchUrl": "https://flight.yatra.com/air-search-ui/b2bdomapi/trigger?type=O&viewName=normal&flexi=0&noOfSegments=1&origin=DEL&originCountry=IN&destination=BLR&destinationCountry=IN&flight_depart_date=10/05/2024&ADT=1&CHD=0&INF=0&class=Economy&unique=1714971093167&newUi=false",
+            "pricingServiceUrl": "/air-service/b2bdomapi/price?searchId=d550b60f-573b-411d-a2bc-27841522f277&msid=d550b60f-573b-411d-a2bc-27841522f277&mode=Instant&bpc=true&flightIdCSV=DELBLRSG815120240510APITESTID&flightPrice=&sc=SGAPI&ref=0605240022593&sst=true&pid=32b86143-c851-4aa5-a97b-f4cd450ef9a0&isHff=false&isSR=false&variation=0&newUi=false"
+        },
+        "flightEndPoint": "http://192.168.171.167/air-pay-book-service/b2bdomapi/payment/getBookingDetails",
+        "addonList": [],
+        "isMultiTicket": "false",
+        "StatusCode": 200
+    }
+}
